@@ -8,6 +8,10 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    font-family: 'Poppins';
+}
+
 .botao-menu-mobile {
     box-sizing: initial;
     padding: 5px 0;
@@ -17,7 +21,7 @@ html {
     transition: 0.7s;
 }
 
-.barras {
+.botao-menu-mobile-barras {
     width: 30px;
     height: 5px;
     background-color: white;
@@ -32,7 +36,7 @@ html {
 .menu {
     position: absolute;
     width: 40vw;
-    height: 100vh;
+    height: 95vh;
     background-color: rgba(238, 238, 238);
 
     transform: translateX(-100%);
@@ -69,7 +73,6 @@ html {
 }
 
 h1 {
-    font-family: 'Poppins';
     font-size: 3rem;
     text-align: center;
 
@@ -93,7 +96,6 @@ h1 {
 }
 
 button {
-    font-family: 'Poppins';
     font-size: 2rem;
     width: 20rem;
     height: 4rem;

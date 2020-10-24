@@ -14,7 +14,7 @@ botaoMenuMobile.addEventListener('click', () => {
     } else if(clicouNoMenu == true){
         menu.style.transform = 'translateX(-100%)'
         botaoMenuMobile.style.backgroundColor = 'rgb(83, 125, 163)'
-        body.style.overflow = ''
+        body.style.overflow = 'auto'
         clicouNoMenu = false
     }
 })
