@@ -1,4 +1,3 @@
-const body2 = document.getElementsByTagName('body')[0]
 const proximo = document.getElementsByTagName('button')[0]
 const anterior = document.getElementsByTagName('button')[1]
 
