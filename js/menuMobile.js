@@ -1,6 +1,5 @@
 const botaoMenuMobile = document.getElementsByClassName('botao-menu-mobile')[0]
 const menu = document.getElementsByClassName('menu')[0]
-const barrasMenuMobile = document.querySelectorAll('.barras')
 const body = document.getElementsByTagName('body')[0]
 var clicouNoMenu = false
 
